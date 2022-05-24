@@ -1,0 +1,29 @@
+.formContainer{
+    background-image: url(./images/login.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: brown;
+    width: 90vw;
+    height: 70vh;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 30%;
+    height: auto;
+}
+
+.formSection{
+    margin: 0.5rem;
+}

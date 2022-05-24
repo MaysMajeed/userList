@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+}
+.logo{
+    margin-left: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav >li{
+list-style: none;
+margin: 1rem;
+}
+.nav>li>a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+
+}
+
+.nav>li>a:hover{
+    color:rgba(0, 0, 139,0.7);
+    
+}
